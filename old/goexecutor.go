@@ -1,5 +1,4 @@
-package lib
-
+package old
 
 type GenericFunction func(interface{}) interface{}
 
@@ -22,4 +21,3 @@ func (g GoExecutor) Start() error {
 func (g GoExecutor) Stop() error {
 	panic("implement me")
 }
-
